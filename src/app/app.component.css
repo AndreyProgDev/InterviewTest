@@ -1,0 +1,15 @@
+p{
+    margin: 0;
+}
+
+.palindrome{
+ color: red;
+}
+
+.numOnly{
+color: blue;
+}
+
+.containsZero{
+    visibility: hidden;
+}

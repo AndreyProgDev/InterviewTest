@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+		<body>
+		  <div class="display" *ngFor="let word of words; let i = index">
+				<div>
+					<p [ngClass]="{palindrome: checkClass[i][0], numOnly: checkClass[i][1], containsZero: checkClass[i][2]}">{{word}}</p>
+				</div>
+			</div>
+		</body>
+</html>
